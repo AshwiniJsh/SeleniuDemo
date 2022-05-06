@@ -7,7 +7,7 @@ public class SeleniumDem {
     public static void main(String args[]){
         System.setProperty("webdriver.chrome.driver","C:\\Users\\Lenovo\\Downloads\\chromedriver_win32\\chromedriver.exe");
         WebDriver driver=new ChromeDriver();
-        driver.get("https://standard02.bytephaserecovery.com");
+        driver.get("https://google.com");
 
 //driver.quit();
     }
